@@ -23,6 +23,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GiveB
  end)
 
 Tab1:CreateButton("UGC Task", function(value)
+local task = true
+while true do
 local args = {
     [1] = Color3.new(0.615686297416687, 0.250980406999588, 0.529411792755127)
 }
